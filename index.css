@@ -1,0 +1,122 @@
+.deepslatecc {
+    position: relative;
+  }
+  .container {
+    position: absolute;
+    top: calc(50% + 129.5px);
+    left: calc(50% - 720px);
+    background-color: #f3f4f4;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 80px;
+    box-sizing: border-box;
+  }
+  .follow-us-on {
+    position: relative;
+    font-weight: 500;
+  }
+  .links {
+    flex-direction: column;
+    gap: 18px 0;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+  }
+  .container1,
+  .footer-links,
+  .links,
+  .links-column {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .links-column {
+    flex-direction: column;
+    gap: 16px 0;
+  }
+  .container1,
+  .footer-links {
+    flex-direction: row;
+  }
+  .container1 {
+    position: absolute;
+    top: 72px;
+    left: 80px;
+    width: 1280px;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .footer {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-black);
+    height: 397px;
+    overflow: hidden;
+    color: #1e1e1e;
+    font-family: var(--font-poppins);
+  }
+  .deepslatecc1 {
+    position: absolute;
+    top: 343px;
+    left: 437px;
+    font-size: 100px;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+  .home1,
+  .resources {
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  .resources {
+    cursor: pointer;
+  }
+  .nav-links {
+    position: absolute;
+    top: 29px;
+    left: 976px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 40px;
+  }
+  .deepslate-1-icon {
+    position: absolute;
+    top: 20px;
+    left: 126px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .home,
+  .navs {
+    width: 100%;
+    overflow: hidden;
+  }
+  .navs {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    left: -1px;
+    background-color: var(--color-black);
+    height: 90px;
+    font-size: var(--font-size-5xl);
+  }
+  .home {
+    position: relative;
+    background-color: #0e0e0e;
+    height: 1195px;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-white);
+    font-family: var(--font-source-serif-4);
+  }
+  
