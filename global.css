@@ -1,20 +1,26 @@
 body {
-    margin: 0;
-    line-height: normal;
-  }
-  
-  :root {
-    /* fonts */
-    --font-source-serif-4: "Source Serif 4";
-    --font-poppins: Poppins;
-  
-    /* font sizes */
-    --font-size-5xl: 24px;
-    --font-size-base: 16px;
-    --font-size-sm: 14px;
-  
-    /* Colors */
-    --color-black: #000;
-    --color-white: #fff;
-  }
-  
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-source-serif-4: "Source Serif 4";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-234xl: 253px;
+  --gap-92xl: 111px;
+  --gap-0: 0px;
+
+  /* Paddings */
+  --padding-xl: 20px;
