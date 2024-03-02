@@ -4,69 +4,82 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
+    <link rel="icon" href="./public/cc.png">
+
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Source Serif 4:wght@500;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
     />
   </head>
   <body>
     <div class="home">
-      <header class="frame-set">
-        <div class="navs">
+      <main class="top-frame">
+        <header class="navbar">
           <img
-            class="deepslate-1-icon"
+            class="deepslatecc-txtlogo-icon"
             loading="lazy"
             alt=""
-            src="deepslate.png"
+            src="./public/deepslatecctxtlogo@2x.png"
           />
 
-          <div class="licensing-info">
-            <h3 class="home1">Home</h3>
-            <h3 class="resources" id="resourcesText">Resources</h3>
-            <h3 class="license" id="licenseText">License</h3>
+          <div class="navbar1">
+            <b class="github" id="gitHubText">GitHub</b>
+            <b class="discord" id="discordText">Discord</b>
           </div>
-        </div>
-      </header>
-      <div class="footer-text">
-        <h1 class="deepslatecc">deepslate.cc</h1>
-      </div>
-      <section class="footer">
-        <div class="container">
-          <div class="footer-links">
-            <div class="links-column">
-              <div class="follow-us-on">Follow Us On</div>
-              <div class="links">
-                <div class="tiktok">TikTok</div>
-                <div class="x">X</div>
-                <div class="youtube">YouTube</div>
+        </header>
+        <section class="secondary-frame">
+          <div class="mission-frame">
+            <div class="mission">
+              <h1 class="our-mission">Our Mission</h1>
+              <div class="giving-everyone-free">
+                Giving everyone free Minecraft Bedrock modding resources under
+                CC license.
               </div>
             </div>
+            <div class="img">
+              <img
+                class="deepslate-icon"
+                loading="lazy"
+                alt=""
+                src="./public/deepslate@2x.png"
+              />
+            </div>
           </div>
-        </div>
-        <footer class="container1">
-          <div class="deepslatecc1">© deepslate.cc</div>
-        </footer>
-      </section>
+        </section>
+      </main>
+      <footer class="footer">
+        <img
+          class="deepslatecc-txtlogowhite-icon"
+          loading="lazy"
+          alt=""
+          src="./public/deepslatecctxtlogowhite@2x.png"
+        />
+
+        <div class="contact" id="contactText">Contact</div>
+      </footer>
     </div>
 
     <script>
-      var resourcesText = document.getElementById("resourcesText");
-      if (resourcesText) {
-        resourcesText.addEventListener("click", function (e) {
-          // Please sync "About" to the project
+      var gitHubText = document.getElementById("gitHubText");
+      if (gitHubText) {
+        gitHubText.addEventListener("click", function () {
+          window.open("https://github.com/deepslatecc");
         });
       }
       
-      var licenseText = document.getElementById("licenseText");
-      if (licenseText) {
-        licenseText.addEventListener("click", function (e) {
-          // Please sync "Event" to the project
+      var discordText = document.getElementById("discordText");
+      if (discordText) {
+        discordText.addEventListener("click", function () {
+          window.open("https://discord.gg/V2hz56qj84");
+        });
+      }
+      
+      var contactText = document.getElementById("contactText");
+      if (contactText) {
+        contactText.addEventListener("click", function () {
+          window.open("https://discord.gg/V2hz56qj84");
         });
       }
       </script>
